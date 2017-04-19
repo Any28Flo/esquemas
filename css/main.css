@@ -6,7 +6,10 @@
 .hijo{
   height: 100px;
   width: 100px;
-  position: absolute;
+}
+.interno{
+  height: 50px;
+  width: 50px;
 }
 #uno{
   top:50px;
@@ -19,7 +22,24 @@
   background-color: #0C31F5;
 }
 #hijouno{
+  background-color: #FFEC00;
+  position: absolute;
   top: 50px;
   left: 50px;
+
+}
+#hijodos{
+  background-color: #FF6F00;
+  position: relative;
+  top:50px;
+  left: 50px;
+}
+#internouno{
+  background-color: #546DF1;
+}
+#internodos{
   background-color: #FFEC00;
+  position:absolute;
+  top: -50px;
+  left: -50px;
 }
